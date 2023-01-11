@@ -218,7 +218,7 @@ h1 {
 }
 
 .course-image {
-  width: 100%;
+  min-width: 100%;
 }
 
 .course__time {
