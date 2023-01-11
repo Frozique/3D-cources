@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* glob */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  display: none;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  margin-left: 15px;
+}
+
+.section-offset {
+  margin-bottom: 80px;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* .container {
+  max-width: 1140px;
+} */
+
+.container-sm {
+  max-width: 600px;
+}
+
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #3F2AFF;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+}
+
+/* header */
+
+.header {
+  padding-top: 29px;
+  padding-bottom: 29px;
+  background-color: #3F2AFF;
+}
+
+.nav__list {
+  justify-content: end;
+}
+
+
+.header__container {
+  justify-content: space-between;
+}
+
+.nav__list .list__item {
+  color: #fff;
+}
+
+.nav__list .list__item:not(:last-child) {
+  margin-right: 56px;
+}
+
+/* heading */
+
+.heading__section {
+  background-image: url(../img/backgruond__heading.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.heading-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+}
+
+.heading-descr {
+  margin: 0;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.heading__list {
+  margin-top: 130px;
+  justify-content: space-between;
+}
+
+.heading__list .list__item {
+  color: #fff;
+}
+
+.heading-button {
+  padding: 24px 75.5px;
+  margin-bottom: 120px;
+  margin-top: 70px;
+}
+
+.heading .row {
+  padding: 12px 0;
+}
+
+.heading__right {
+  max-height: 593px;
+  background-image: url(../img/heading__image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* advantages */
+
+.advantages__top {
+  margin-bottom: 30px;
+}
+
+.article__image img {
+  padding: 22px 0;
+}
+
+.article__text .text-title {
+  color: #000;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+
+
+.article__text .text-descr {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+
+.bottom__list .list__item p {
+  vertical-align: baseline;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+/* teachers */
+
+.teachers__section {
+  background-image: url(../img/teachers__background.png);
+}
+
+.teachers .teachers__title {
+  color: #fff;
+  margin-top: 80px;
+}
+
+.teachers__descr .teachers-name {
+  color: #fff;
+  margin: 0;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.teachers__descr .teachers-words {
+  color: #85859B;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 80px;
+}
+
+
+/* courses */
+
+.preview__image {
+  position: relative;
+}
+
+.course-image {
+  width: 100%;
+}
+
+.course__time {
+  position: absolute;
+  right: 5px;
+  top: 7px;
+}
+
+.preview__image span {
+  color: #fff;
+  vertical-align: super;
+}
+
+.preview__text {
+  background-color: #EDF0F9;
+  margin-top: -3px;
+  border-radius: 0 0 20px 20px;
+  min-height: 300px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.preview-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  margin-left: 30px;
+  padding-top: 30px;
+}
+
+.preview-descr {
+  color: #666666;
+  margin: 15px 30px auto 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.preview-btn {
+  width: fit-content;
+  padding: 20px 60px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: auto;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+/* footer */
+
+
+.footer {
+  background-color: #2E2B44;
+}
+
+.social__list {
+  text-align: center;
+  display: flex;
+}
+
+.social__list .list__item {
+  margin-right: 32px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.social__list .list__item:first-child {
+  margin-left: auto;
+}
+
+.social__list .list__item:last-child {
+  margin-right: auto;
+}
+
+/* license */
+
+.license {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.license span {
+  color: #3F2AFF;
+}
